@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "gruntfuggly.todo-tree",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mechatroner.rainbow-csv",
+    "ms-playwright.playwright",
+    "oderwat.indent-rainbow",
+    "streetsidesoftware.code-spell-checker",
+    "vitest.explorer",
+    "Vue.volar"
+  ]
+}
