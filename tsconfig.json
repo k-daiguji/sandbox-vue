@@ -1,5 +1,5 @@
 {
-  "include": ["env.d.ts", "src/**/*"],
+  "include": ["env.d.ts", "e2e/**/*", "eslint/**/*", "src/**/*", "tests"],
   "compilerOptions": {
     "allowArbitraryExtensions": false,
     "allowImportingTsExtensions": false,
@@ -43,6 +43,7 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitOverride": true,
+    "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,

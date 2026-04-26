@@ -3,12 +3,12 @@ import { mount } from "@vue/test-utils";
 
 import App from "@/App.vue";
 
-describe("App", () => {
+describe("app", () => {
   it("mounts renders properly", () => {
-    const wrapper = mount(App);
+    const WRAPPER = mount(App);
 
-    const actual = wrapper.text();
+    const ACTUAL = WRAPPER.text();
 
-    expect(actual).toContain("You did it!");
+    expect(ACTUAL).toContain("You did it!");
   });
 });
