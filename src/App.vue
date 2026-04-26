@@ -1,17 +1,14 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const TITLE = "You did it!";
+</script>
 
 <template>
-  <h1>You did it!</h1>
+  <h1>{{ TITLE }}</h1>
   <p>
-    Visit
     <a
       href="https://vuejs.org/"
       target="_blank"
-      rel="noopener"
-    >
-    </a>
-    to read the documentation
+      rel="noopener noreferrer"
+    />
   </p>
 </template>
-
-<style scoped></style>
